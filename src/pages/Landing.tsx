@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from 'react';
 // @ts-ignore
 import styles from "../styles/Landing.module.css";
 import { Link } from "react-router-dom";
 
-export const Landing: React.FC = () => {
+class Landing extends class Component {
+  render() {
   return (
     <>
       <div className={styles.navContainer}>
@@ -95,5 +96,6 @@ export const Landing: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+  }
+}
