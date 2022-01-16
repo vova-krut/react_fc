@@ -1,0 +1,164 @@
+.navContainer {
+  height: 120px;
+  background-color: #000;
+  font-family: Red Rose;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.nav {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header {
+  color: #fff;
+  margin: 0;
+  padding-top: 10%;
+  font-size: 48px;
+}
+
+.navItems li {
+  color: #ffffff;
+  background-color: black;
+  font-size: 36px;
+  list-style: none;
+  border: none;
+  margin-right: 20px;
+}
+
+.navItems li:hover {
+  cursor: pointer;
+}
+
+.navItems button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.logo {
+  font-size: 48px;
+  padding-left: 30px;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4% 15%;
+  align-items: center;
+}
+
+.App {
+  background: #353535 url("../public/btc_bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  z-index: 1000000;
+  background-attachment: fixed;
+  height: 87.2vh;
+  font-family: Red Rose;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.formBtn {
+  border: none;
+  outline: none;
+  background-color: #fb923c;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 25%;
+  width: 45%;
+  height: 10%;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+  background-color: #fdba74;
+}
+
+.rect {
+  text-align: center;
+}
+
+.rectImg {
+  position: relative;
+  left: 100px;
+}
+
+.rectH {
+  position: absolute;
+  top: 21%;
+  left: 24%;
+  font-size: 52px;
+}
+
+.rectH span {
+  display: block;
+  text-decoration: underline;
+}
+
+.rectp {
+  position: absolute;
+  top: 37%;
+  left: 20%;
+  font-size: 36px;
+}
+
+.heroForm {
+  height: 450px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background-color: #171717;
+  color: #ffffff;
+  border-radius: 35px;
+}
+
+.element {
+  display: block;
+  height: 50px;
+  width: 70%;
+  margin: 10px auto;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: grey;
+  border: 0;
+}
+
+.element::placeholder {
+  color: #ffffff;
+}
+
+.title {
+  position: relative;
+  height: 10px;
+  padding: 0;
+  font-size: 34px;
+  margin-bottom: 85px;
+  margin-top: 30px;
+}
+
+.crypto {
+  font-size: 36px;
+  color: #fff;
+  margin-left: 170px;
+}
+
+.cryptoImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+  margin-bottom: 18px;
+}
