@@ -7,7 +7,7 @@
 }
 
 .nav {
-  padding-top: 15px;
+  padding-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,8 @@
   font-size: 36px;
   list-style: none;
   border: none;
-  margin-right: 20px;
+  text-decoration: none;
+  margin-right: 30px;
 }
 
 .navItems li:hover {
@@ -43,14 +44,15 @@
 .logo {
   font-size: 48px;
   padding-left: 30px;
-  color: #ffffff;
+  color: #000;
+  text-decoration: none;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 4% 15%;
+  padding: 3% 15%;
   align-items: center;
 }
 
@@ -90,7 +92,8 @@
 
 .rectImg {
   position: relative;
-  left: 100px;
+  left: 3%;
+  top: 100%;
 }
 
 .rectH {
@@ -152,9 +155,11 @@
   font-size: 36px;
   color: #fff;
   margin-left: 170px;
+  margin-top: 30px;
 }
 
 .cryptoImgs {
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
